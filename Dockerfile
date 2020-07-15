@@ -92,7 +92,7 @@ RUN     echo "http://dl-cdn.alpinelinux.org/alpine/v3.8/main" >> /etc/apk/reposi
 
 # EN: Clone git-repo
 # RU: Клонирование git-репозитория
-git clone https://github.com/SystemRage/py-kms.git /tmp/py-kms && \
+git clone https://github.com/jsunj0nes/py-kms.git /tmp/py-kms && \
 git clone https://github.com/coleifer/sqlite-web.git /tmp/sqlite_web && \
 mv /tmp/py-kms/py-kms /home/ && \
 mv /tmp/sqlite_web/sqlite_web /home/ && \
